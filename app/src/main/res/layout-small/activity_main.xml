@@ -7,8 +7,8 @@
 
     <ImageView
         android:id="@id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:scaleType="centerCrop"
         android:src="@drawable/background"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -32,7 +32,9 @@
         android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         android:layout_marginBottom="8dp"
-        app:layout_constraintVertical_bias="0.92" />
+        app:layout_constraintVertical_bias="0.92"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
 
 
 </android.support.constraint.ConstraintLayout>

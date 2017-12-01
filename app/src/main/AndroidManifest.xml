@@ -3,8 +3,6 @@
     package="tr.com.harunkor.multiscreensizesample">
 
 
-
-
     <supports-screens
         android:resizeable="true"
         android:smallScreens="true"
